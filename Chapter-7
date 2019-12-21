@@ -1,0 +1,40 @@
+1. def removeduplicates(lst1):
+      s=set(lst1)
+      lst2=list(lst1)
+      return lst2
+2. def cumulativelist(lst1):
+      lst2=[]
+      sum1=0
+      for i in lst:
+         sum1=sum1+i
+         lst2.append(sum1)
+   return lst2
+3. def main():
+      freq={}
+      letters='abcdefghijklmnopqrstuvwxyz'
+      sentence=input("enter a sentence")
+      sentence1=sentence.lower()
+      for i in sentence1:
+         if i in letters:
+            if i in freq:
+               freq[i]+=1
+            else:
+               freq[i]=1
+      print(freq)
+4. a) [0, 1, 2, 3, 4]
+      [3, 4, 5, 6, 7]
+   b) [3, 1, 5, 3, 7]
+      [0, 4, 2, 6, 4]
+5. a) 30
+   b) 25
+   c) omputerc
+   d) 219
+   e) [2, 4, 18, 12, 16, 45, 24, 28, 72, 34]
+6. def funclist(n):
+      lst=[]
+      l=[0,0,0,0,0]
+      for i in range(1,n+1):
+         for j in range(1,6):
+            l[j-1]=i*j
+         lst.append(l[:])
+          /777/
