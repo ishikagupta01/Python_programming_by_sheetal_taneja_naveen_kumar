@@ -1,0 +1,43 @@
+1. def replacstar(stri):
+   strr=''
+   for i in range(0,len(stri)):
+      if stri[i]==stri[i-1]:
+         strr=strr[:i+1]+'*'
+      else:
+         strr+=stri[i]
+   return strr
+2. def checkanagrams(s1, s2):  
+      if(sorted(s1)== sorted(s2)): 
+         print("The strings are anagrams.")  
+      else: 
+         print("The strings aren't anagrams.")
+3. def numberofwords(s):
+      count=1
+      for i in s:
+         if i==" ":
+            count+=1
+      print("number of words are :",count)
+5. same as 3
+6. a) 22
+   b) ' Delhi'
+   c) 'B-6, Lodhi road, Delhi'
+   d) 'B-6, Lodhi road, Delhi'
+   e) -1
+   f) 'b-6, lODHI ROAD, dELHI'
+   g) ['B-6', 'Lodhi road', 'Delhi']
+   h) False
+7. a) 2
+   b) 15
+   c) 27
+   d) 'Good morning. have a good day!!'
+   e) 'good morning. have a good day!!'
+   f) 'GOOD MORNING. HAVE A GOOD DAY!!'
+   g) 'gOOD mORNING. hAVE A gOOD dAY!!'
+   h) False
+   i) 'Sweet Morning. Have a Good Day!!'
+   j) 'Good Morning. Have a Good Day!!'
+   k) ['Good', 'Morning.', 'Have', 'a', 'Good', 'Day!!']
+   l) ('Good Morning', '.', ' Have a Good Day!!')
+   m) False
+   n) True
+    
