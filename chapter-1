@@ -1,0 +1,198 @@
+1. a) (0<6) or (not(10==6) and (10<6))
+      (0<6) or (not(False) and (False))
+      (0<6) or (True and False)
+      True or False
+      True
+   b) (1<1) or (not(1==1) and (1<1))
+      (1<1) or (not(True) and (False))
+      (1<1) or (False and False)
+      False or False
+      False
+2. a) -7*20+8/16*2+54
+      (-7*20)+((8/16)*2)+54
+      (-140)+(0.5*2)+54
+      -140+1+54
+      -85
+   b) 7**2//9%3
+      ((7**2)//9)%3
+      (49//9)%3
+      5%3
+      2
+   c) (7-4*2)*10/5**2+15
+      ((7-(4*2))*(10/(5**2)))+15
+      ((7-8)*(10/25))+15
+      ((-1)*(0.4))+15
+      -0.4+15
+      14.6
+   d) 5%10+10-25*8//5
+      (5%10)+10-((25*8)//5)
+      (5)+10-(200//5)
+      5+10-40
+      -25
+   e) ' hello'  *2-5
+      Type error
+3. a) ('hi'>'hello') and ('bye'<'Bye')
+      True and False
+      False
+   b) ('hi'>'hello') or ('bye' <'Bye')
+      True or False
+      True
+   c) (7>8) or ((5<6) and ('I am fine'>'I am not fine'))
+      (False) or ( True and False)
+      False or False
+      False
+   d) (10!=9) and (29>=29)
+      True and True
+      True
+   e) ((10!=9)and ((29>=29) and ('hi'>'hello'))) or (('bye'<'Bye') and (7<=2.5))
+      (True and (True and True) or (False  and False)
+      (True and True) or (False)
+      True or False
+      True
+4. a) (((5%10)+10) < 50) and (29>=29)
+      ((5+10)<50) and True
+      (15<50) and True
+      True and True
+      True
+   b) ((7**2)<=((5//9)%3)) or ('bye' < 'Bye')
+      (49<=(0%3)) or False
+      (49<=0) or False
+      False or False
+      False
+   c) ((5%10)<10) and (-25>((1*8)//5))
+      (5<10) and (-25>(8//5))
+      True and (-25>1)
+      True and False
+      False
+   d) ((((7**2)//4)+5)>8) or (5!=6)
+      (((49//4)+5)>8) or True
+      ((12+5)>8) or True
+      (17>8) or True
+      True or True
+      True
+   e) ((7/4)<6) and ('I am fine' > 'I am not fine')
+      (1.75<6) and (False)
+      True and False
+      False
+   f) ((10+(6*(2**2))) != ((9//4)-3)) and ((29>=(29/9))
+      ((10+(6*4)) != (2-3)) and (29>=3.222222222223)
+      ((10+24) != (-1)) and True
+      (34 != -1) and True
+      True and True
+      True
+   g) (('hello' *5)>'hello) or ('bye' < 'Bye)
+      True or False
+      True
+5. a) 15&22
+      15- 00001111
+      22- 00010110
+      -------------
+      6 - 00000110
+   b) 15|22
+      15- 00001111
+      22- 00010110
+      -------------
+      31- 00011111
+   c) -15&22
+      -15-11110000
+      22- 00010110
+      -------------
+      16- 00010000
+   d) -15|22
+      -15-11110000
+      22- 00010110
+      -------------
+      -9- 11110110
+      as 9 is 00001001
+   e) ~15
+      15- 00001111
+      -------------
+      ~15-11110000
+      which is two's complement of 
+      16- 00010000
+      Therefore answer is : -16
+   f) ~22
+      22- 00010110
+      -------------
+      ~22-11101001
+      which is two's complement of 
+      23- 00010111
+      Therfore answer is : -23
+   g) ~-20
+      20- 00010100
+      -20-11101011
+      -------------
+     ~-20-00010100
+     which is the two's complement of 
+     -19- 11101100
+     Therefore answer is : 19
+  h) 15 ^ 22
+     15- 00001111
+     22- 00010110
+     -------------
+     25- 00011001
+  i) 8 << 3
+     8-  00001000
+     -------------
+     64- 01000000
+  j) 40 >> 3
+     40- 00101000
+     -------------
+     5-  00000101
+6. a) = and ==
+      = is an assignement operator whereas == is a relational operator
+      If we type x=5 ,x is assigned the value 5 
+      and on typing x==5 we will get true as the output.
+   b) / and %
+      / is used to find quotient whereas % is used to find remainder.
+      3/6 will give 0.5
+      and 3%6 will give 3 as output
+   c) / and //
+      / gives real number as output whereas // gives integer result.
+      7/2 will give 3.5 as output
+      and 7//2 will give 3 as output.
+   d) * and **
+      * is multiplication operator wheres ** is an exponentiation operator
+      5*2 will give 10 as output 
+      and 5**2 will give 25 as output.
+      * is left associative operator and **is right associative operator.
+7. a) >>> a=6
+      >>> a==6
+      True
+      >>> a<5.9
+      Flase
+      >>> a>5.9
+      True
+   b) >>> b=7
+      >>> b/6
+      1.166666666667
+      >>> b//6
+      1
+      >>> b/4
+      1.75
+      >>> b%4
+      3
+      >>> b%7
+      0
+      >>> b*2
+      14
+      >>> b**2
+      49
+8. a) marks>300 and marks<400
+   b) grade>=65 and grade<=90
+   c) post=='engineer' and experience>4
+9. class
+   if
+   
+10.a) root1=((-b+(((b**2)-(4*a*c))**0.5))/2a
+   b) result=(((2*x*y)-(9*y))/((2*x*(y**3))))-((4*y*(x**2))/(2*y))
+   c) import math
+      result = (2*(math.cos(0.5*(x+y)))*(math.cos(0.5*(x-y)))) + (math.exp(x)) - 1 - (x/4) + (math.tan(x)) - (math.log(v))
+11. a) x+=x+10
+       means
+       x=x+x+10
+       x=(2*x)+10
+    b) x=x+10
+   
+      
+      
