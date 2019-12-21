@@ -1,0 +1,59 @@
+1. math.ceil(65.65)      :   66
+   math.fabs(-67.58)     :   67.58
+   math.exp(2.7)         :   14.8797
+   math.log10(1000)      :   3.0
+   math.sqrt(121)        :   11.0
+   math.degree(math.pi/2):   90.0
+   math.ceil(65.47)      :   66
+   math.fabs(3)          :   3.0
+   math.log(45,2)        :   5.491
+   math.pow(4,1/2)       :   2.0
+   math.radians(30)      :   0.5235
+2. Value of x can lie between [5,6)
+3. abs(-5.4)             :   5.4
+   abs(15)               :   15
+   chr(72)               :   'H'
+   round(-24.9)          :   -25
+   float(57)             :   57.0
+   complex('1+2j')       :   (1+2j)
+   divmod(5,2)           :   (2,1) (divmod(x,y) returns (x//y,x%y))
+   float(57)             :   57.0
+   pow(9,2)              :   81
+   max(97, 88, 60)       :   97
+   min(55, 29, 99)       :   29
+   max('a', 'b', 'AB')   :   'b'
+4. a) def pattern1():
+        print("\t\t*")
+        print("\t*\t*\t*)
+        print("*\t*\t*\t*\t*")
+        print("\t*\t*\t*")
+        print("\t\t*")
+   b) def pattern2():
+        print("$ $ $ $ $")
+        print("$       $")
+        print("$       $")
+        print("$       $")
+        print("$ $ $ $ $")
+5. a) nMultiple(5)        :   5
+      nMultiple(5,6)      :   30
+      nMultiple(num=7)    :   0
+      nMultiple(num=6,a=5):   30
+      nmultiple(5,num=6)  :   30
+6. a) a= 8
+      b= 5
+   b) None
+7. import math
+   def areaTriangle(side1,side2,side3):
+      s=(side1+side2+side3)/2
+      d=s*(s-side1)*(s-side2)*(s-side3)
+      a=math.sqrt(d)
+      return a
+   def main():
+      side1=eval(input("Enter first side of triangle"))
+      side2=eval(input("Enter second side of triangle")
+      side3=eval(input("Enter third side of triangle"))
+      assert ((side1+side2)>side3) or ((side1+side3)>side2) or ((side2+side3)>side1)
+      ans=areaTriangle(side1,side2,side3)
+      print("Area: ",ans)
+   main()
+   
