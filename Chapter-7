@@ -37,4 +37,53 @@
          for j in range(1,6):
             l[j-1]=i*j
          lst.append(l[:])
-          /777/
+      
+7. def digit(n):
+      dicti={1:'one',2:'two',3:'three',4:'four',5:'five',6:'six',7:'seven',8:'eight',9:'nine',10:'ten'}
+      reverse=0
+      while n>0:
+         remainder=n%10
+         reverse=reverse*10+remainder
+         n=n//10
+      while reverse>0:
+         digits=reverse%10
+         print(dicti[digits],end=" ")
+         reverse=reverse//10
+8. a) Index Error
+   b) [1, 2, 3, 1, 2, 3]
+   c) Type Error
+   d) 3
+   e) ['B', '-', '6', ' ', 'L', 'o', 'd', 'h', 'i', ' ', 'r', 'o', 'a', 'd', ',', 'D', 'e', 'l', 'h', 'i']
+   f) ['a', 1, 'z', 26, 'd', 4, 'e', 5]
+   g) ['a', 1, 'z', 26, 'd', 4, 'e', 5, ['e', 5]]
+   h) ['gita', 'rohan', 'mohan']
+   i) [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+   j) [2]
+   k) [2, 3, 4, 5, 3, 4, 5, 6, 4, 5, 6, 7, 5, 6, 7, 8]
+   l) Type Error
+   m) Attribute Error
+   n) Type Error
+   o) 'a, e, i, o, u'
+   p) [('apple', 'red'), ('orange', 'orange')]
+   q) ['english', 'physics', 'chemistry', 'maths']
+   r) {'X': ['eng', 'hindi', 'maths', 'science'], 'XII': ['english', 'physics', 'chemistry', 'maths', 'computer science']}
+   s) False
+   t) [('apple', 'red'), ('mango', 'yellow'), ('orange', 'orange')]
+   u) ['X', 'XII']
+   v) 'None'
+   w) {'apple': 'red', 'mango': 'yellow', 'orange': 'orange', 'kiwi': 'green'}
+9. a) {'Bicycle', 'Scooter', 'Car', 'Bike', 'Rickshaw'}
+   b) {'Car', 'Truck', 'Bus'}
+   c) {'Car'}
+   d) {'Rickshaw', 'scooter', 'Bike', 'Bicycle', 'Truck', 'Bus'}
+   e) {'Rickshaw', 'scooter', 'Bike', 'Bicycle', 'Truck', 'Bus', 'Car'}
+   f) 'Bicycle'
+      'Scooter'
+      'Car'
+      'Bike'
+      'Truck'
+      'Bus'
+      'Rickshaw'
+   g) 7
+   h) 'Bicycle'
+   i) {'Bicycle', 'Scooter', 'Car', 'Bike', 'Truck', 'Bus', 'Rickshaw'}
