@@ -179,7 +179,7 @@
       >>> b**2
       49
 8. a) marks>300 and marks<400
-   b) grade>=65 and grade<=90
+   b) grade.isUpper()
    c) post=='engineer' and experience>4
 9. class
    if
